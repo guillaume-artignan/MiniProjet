@@ -1,0 +1,28 @@
+.Toggle {
+
+    background-color: lightgray;
+    width : 40px;
+    height : 20px;
+    border: 1px solid gray;
+    border-radius: 10px;
+
+    .bouton {
+        width : 15px;
+        height : 15px;
+        border-radius: 10px;
+        margin-top : 2px;
+        
+        background-color: gray;
+    }
+
+    .bouton.left {
+        margin-left : 2px;
+        transition : 0.4s;
+    }
+
+    .bouton.right {
+        margin-left : 23px;
+        transition : 0.4s;
+    }
+}
+
