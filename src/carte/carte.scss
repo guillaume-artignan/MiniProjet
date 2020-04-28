@@ -1,0 +1,14 @@
+.Carte{
+    display : flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 25pt;
+    padding : 20px;
+    width : 100px;
+    height : 100px;
+    border : 1px solid black;
+}
+
+.Carte.plus:hover{
+    background-color: lightskyblue;
+}
