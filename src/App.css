@@ -6,3 +6,7 @@ h2 {
 .Toggle {
   display : inline-block;
 }
+
+#calWrapper{
+  width : 300px;
+}
