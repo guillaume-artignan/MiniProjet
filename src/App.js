@@ -3,10 +3,12 @@ import logo from './logo.svg';
 import './App.css';
 import Toggle from './toggle';
 import Calculatrice from './calculatrice/calculatrice';
+import Pendu from './pendu/pendu'
 
 function App() {
   return (
     <div className="App">
+      <Pendu mot="Salut"></Pendu>
       <div id="calWrapper">
       <Calculatrice></Calculatrice>
       </div>

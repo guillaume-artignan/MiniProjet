@@ -1,0 +1,49 @@
+.Pendu {
+
+    width : 100%;
+    box-sizing: border-box;
+    display : flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    
+    .mot {
+        box-sizing: border-box;
+        padding-left : 5%;
+        padding-right : 5%;    
+        width : 100%;
+
+        display : flex;
+        flex-wrap : wrap;
+        justify-content: space-around;
+    
+        .case{
+            padding : 5px;
+        }
+    }
+
+    .saisie {
+        width : 100%;
+        display : flex;
+        justify-content: center;
+        input {
+            width : 70%
+        }
+    }
+
+    .gagne,.perdu{
+        font-size: 25pt;
+        font-weight: bold;
+        font-family: "Fira Sans","Arial";
+    }
+
+    .gagne {
+        color : green;
+    }
+
+    .perdu {
+        color : Red;
+    }
+}
+
+
+
