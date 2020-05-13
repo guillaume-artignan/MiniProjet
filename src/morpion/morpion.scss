@@ -1,0 +1,48 @@
+.Morpion{
+    width : 300px;
+    height : 300px;
+    display : flex;
+    flex-wrap : wrap;
+
+    .Case {
+        box-sizing: border-box;
+        width : 100px;
+        height : 100px;
+        border : 1px solid gray;
+        background-size: 100%;
+        background-repeat: repeat;
+        background-position: center;
+    }
+
+    .X {
+        background-image: url('./images/cross.png');
+       
+    }
+
+    .O {
+        background-image: url('./images/circle.png');
+    }
+
+    .popup{
+        position : absolute;
+        width : 200px;
+        height : 100px;
+        margin-top : 100px;
+        margin-left : 50px;
+        border : 1px solid black;
+        border-radius : 10px;
+        box-shadow : 5px 5px 10px gray;
+        background-color: rgba(255,255,255,1);
+        display : flex;
+        justify-content: center;
+        align-items: center;
+        font-size: 20px;
+        font-family: "Fira Sans",Arial;
+
+        
+
+        img {
+            width : 50px;
+        }
+    }
+}
